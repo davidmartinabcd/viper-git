@@ -4102,7 +4102,7 @@ import_libs()
 update_check()
 addDefaultVars()
 if params.indexOf("--no-settings") == null and params.indexOf("-ns") == null then loadSettings()
-import_code("/home/volk/viper.img")
+import_code("/root/source/viper.img")
 ascii_print()
 
 injectionFlag = "Congrats, you were able to inject Viper! Your flag code is: ^E%aW$%k#5UX=1ay3r8Eu=V87$n$+rDF"
@@ -4187,4 +4187,5 @@ while not main_session.exit
     command_logic(input)
 
 end while
+
 
